@@ -6,7 +6,7 @@ A lightweight and performant C# library designed for rapidly converting **Rich T
 
 ## Installation
 
-Install the library via NuGet (Assuming the package name is `ReasonableRTF`):
+Install the library via NuGet:
 
 ```
 dotnet add package ReasonableRTF
