@@ -22,7 +22,7 @@ Converting an RTF file (as a byte array) to plain text is straightforward. The `
 
 Here is how to convert an RTF byte array to a plain text string:
 
-```
+```cs
 using ReasonableRTF;
 using ReasonableRTF.Models;
 using System.IO;
@@ -73,7 +73,7 @@ For more control over the output, you can provide an instance of the **`RtfToTex
 
 ### Applying Options
 
-```
+```cs
 RtfToTextConverter converter = new RtfToTextConverter();
 RtfToTextConverterOptions options = new RtfToTextConverterOptions
 {
