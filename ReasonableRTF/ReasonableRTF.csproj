@@ -2,7 +2,15 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<LangVersion>10</LangVersion>
+		<LangVersion>12</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<WarningsAsErrors>Nullable</WarningsAsErrors>
+		<Nullable>enable</Nullable>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="System.Text.Encoding.CodePages" Version="9.0.10" />
+	</ItemGroup>
 
 </Project>
