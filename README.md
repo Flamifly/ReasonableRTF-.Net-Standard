@@ -9,7 +9,7 @@ A lightweight and performant C# library designed for rapidly converting **Rich T
 Install the library via NuGet:
 
 ```
-dotnet add package ReasonableRTF
+dotnet add package ReasonableRTF.Standard
 ```
 
 - - -
